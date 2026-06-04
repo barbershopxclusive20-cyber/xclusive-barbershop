@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "logo": "images/logo.png",
+    "logoAlt": "Xclusive Barbershop",
+    "links": [
+      { "label": "About",     "href": "#about" },
+      { "label": "Services",  "href": "#services" },
+      { "label": "Portfolio", "href": "#portfolio" },
+      { "label": "Team",      "href": "#team" },
+      { "label": "Pricing",   "href": "#pricing" },
+      { "label": "Contact",   "href": "#contact" }
+    ],
+    "ctaLabel": "Book Now",
+    "ctaHref": "tel:7134127282"
+  },
+  "hero": {
+    "tag": "Houston, TX — Est. 2020",
+    "title": "Xclusive",
+    "titleLine2": "Barber",
+    "titleLine3": "Shop",
+    "subtitle": "Precision cuts. Flawless fades. An experience crafted for those who demand the best.",
+    "cta1Label": "Book Appointment",
+    "cta1Href": "tel:7134127282",
+    "cta2Label": "See Our Work",
+    "cta2Href": "#portfolio"
+  },
+  "about": {
+    "label": "About Us",
+    "heading": "More Than a Cut —",
+    "headingAccent": "A Craft.",
+    "body1": "At Xclusive Barbershop, every appointment is more than a haircut — it's a statement. Our master barbers blend precision technique with a sharp eye for style, delivering results that turn heads and build confidence.",
+    "body2": "Located in the heart of Houston, TX, we've built a reputation for excellence, consistency, and an atmosphere where every client feels at home.",
+    "ctaLabel": "Explore Services",
+    "ctaHref": "#services",
+    "image": "images/about.jpg",
+    "imageAlt": "Barber at work at Xclusive Barbershop",
+    "stats": [
+      { "value": 5,    "label": "Years of Experience" },
+      { "value": 2000, "label": "Happy Clients" },
+      { "value": 98,   "label": "5-Star Reviews" }
+    ]
+  },
+  "services": [
+    {
+      "name": "Signature Fade",
+      "desc": "Our most requested cut — a seamless blend tailored to your head shape and personal style.",
+      "price": "$35",
+      "priceNote": "& up"
+    },
+    {
+      "name": "Classic Cut",
+      "desc": "Timeless precision — scissors and clippers combined to deliver a sharp, clean finish.",
+      "price": "$30",
+      "priceNote": "& up"
+    },
+    {
+      "name": "Beard Lineup",
+      "desc": "Crisp edges and clean lines — we shape and define your beard with razor-sharp precision.",
+      "price": "$20",
+      "priceNote": "& up"
+    },
+    {
+      "name": "Kids Cut",
+      "desc": "A comfortable, fun experience for the young ones — keeping them fresh from an early age.",
+      "price": "$25",
+      "priceNote": "& up"
+    },
+    {
+      "name": "Hair Design",
+      "desc": "Custom artwork etched into your fade — let your hair do the talking.",
+      "price": "$45",
+      "priceNote": "& up"
+    },
+    {
+      "name": "Full Service",
+      "desc": "Cut + beard + lineup + hot towel — the complete Xclusive experience from start to finish.",
+      "price": "$65",
+      "priceNote": "& up"
+    }
+  ],
+  "portfolio": [
+    { "image": "images/portfolio-1.jpg", "tag": "Signature Fade",   "alt": "Signature fade cut" },
+    { "image": "images/portfolio-2.jpg", "tag": "Classic + Lineup", "alt": "Classic cut with lineup" },
+    { "image": "images/portfolio-3.jpg", "tag": "Beard Sculpt",     "alt": "Beard sculpt" },
+    { "image": "images/portfolio-4.jpg", "tag": "Hair Design",      "alt": "Hair design" },
+    { "image": "images/portfolio-5.jpg", "tag": "Taper Cut",        "alt": "Taper cut" }
+  ],
+  "team": [
+    { "name": "Alex Romero", "role": "Founder & Master Barber", "image": "images/barber-1.jpg" },
+    { "name": "Marco V.",    "role": "Senior Barber",           "image": "images/barber-2.jpg" },
+    { "name": "Jordan K.",   "role": "Style Specialist",        "image": "images/barber-3.jpg" }
+  ],
+  "reviews": [
+    { "text": "Best fade I've ever had. Alex took his time and the result was perfect. Won't go anywhere else.", "author": "Marcus T." },
+    { "text": "Clean shop, great vibes, and my beard looks incredible. They know exactly what they're doing.", "author": "David R." },
+    { "text": "Brought my son for his first real cut here. He walked out feeling like a million bucks. Amazing team.", "author": "James L." },
+    { "text": "The attention to detail is unreal. They notice things I didn't even ask for and fix them anyway.", "author": "Kevin M." },
+    { "text": "Been coming here for 2 years. Consistent quality every single time. This is the spot.", "author": "Tony S." },
+    { "text": "Walked in without an appointment and they took care of me immediately. Excellent service.", "author": "Andre P." },
+    { "text": "The hair design they did for my son was incredible. All his classmates wanted one after.", "author": "Maria G." },
+    { "text": "I drive 40 minutes just to come here. Worth every mile. Nobody does it like Xclusive.", "author": "Ray F." },
+    { "text": "Most professional shop I've been to. Everything is top notch — the cut, the atmosphere, the people.", "author": "Chris W." },
+    { "text": "My go-to spot. The fades are sharp, the beard work is flawless, and the price is fair.", "author": "Isaiah B." }
+  ],
+  "gallery": [
+    { "image": "images/gallery-1.jpg", "alt": "Barbershop interior" },
+    { "image": "images/gallery-2.jpg", "alt": "Barber in action" },
+    { "image": "images/gallery-3.jpg", "alt": "Precision fade in progress" },
+    { "image": "images/gallery-4.jpg", "alt": "Beard lineup detail" },
+    { "image": "images/gallery-5.jpg", "alt": "Shop ambiance" },
+    { "image": "images/gallery-6.jpg", "alt": "Sharp taper cut" }
+  ],
+  "pricing": [
+    {
+      "name": "Essential",
+      "price": "25",
+      "desc": "Perfect for the straightforward, clean look.",
+      "featured": false,
+      "badge": "",
+      "features": ["Kids Cut (12 & under)", "Classic Cut", "Basic Lineup", "Neck shave"],
+      "ctaLabel": "Book Now",
+      "ctaHref": "tel:7134127282"
+    },
+    {
+      "name": "Signature",
+      "price": "45",
+      "desc": "Our most-requested package — elevated in every way.",
+      "featured": true,
+      "badge": "Popular",
+      "features": ["Signature Fade", "Beard Lineup", "Hot Towel Finish", "Styling Product", "Neck & Edge Detailing"],
+      "ctaLabel": "Book Now",
+      "ctaHref": "tel:7134127282"
+    },
+    {
+      "name": "Xclusive",
+      "price": "65",
+      "desc": "The full experience — from entry to exit, nothing missed.",
+      "featured": false,
+      "badge": "",
+      "features": ["Full Cut + Style", "Beard Sculpt", "Hair Design (optional)", "Hot Towel Treatment", "Scalp Massage", "Premium Products"],
+      "ctaLabel": "Book Now",
+      "ctaHref": "tel:7134127282"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need an appointment?",
+      "answer": "Walk-ins are welcome, but appointments are strongly recommended to secure your preferred time and barber. You can book by calling 713-412-7282 or booking online."
+    },
+    {
+      "question": "How long does a typical appointment take?",
+      "answer": "A standard cut takes 30–45 minutes. The full Xclusive package with beard work and hot towel takes 60–75 minutes. We never rush — quality takes the time it needs."
+    },
+    {
+      "question": "Do you do hair designs?",
+      "answer": "Absolutely. Custom hair designs are one of our specialties. Bring a reference image or describe your vision and we'll make it happen. Designs start at $45 depending on complexity."
+    },
+    {
+      "question": "Do you cut kids' hair?",
+      "answer": "Yes! Kids 12 and under receive our Essential cut at a special price. We're patient, friendly, and know how to make the experience comfortable for young clients."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, all major credit/debit cards, Zelle, CashApp, and Apple Pay. Tipping in cash is always appreciated but never required."
+    }
+  ],
+  "blog": [
+    {
+      "cat": "Grooming Tips",
+      "title": "How to Maintain Your Fade Between Appointments",
+      "excerpt": "Simple daily habits that keep your fade looking fresh longer — so your investment lasts.",
+      "date": "June 2025",
+      "image": "images/blog-1.jpg",
+      "href": "#"
+    },
+    {
+      "cat": "Products",
+      "title": "The Best Beard Oils of 2025 — Ranked by Our Barbers",
+      "excerpt": "Our team tested dozens of products so you don't have to. Here's what actually works.",
+      "date": "May 2025",
+      "image": "images/blog-2.jpg",
+      "href": "#"
+    },
+    {
+      "cat": "Style",
+      "title": "The Top 5 Fade Styles Dominating 2025",
+      "excerpt": "From skin fades to mid tapers — here's what our clients are requesting most this year.",
+      "date": "April 2025",
+      "image": "images/blog-3.jpg",
+      "href": "#"
+    }
+  ],
+  "location": {
+    "address": "9685 SW Freeway Frontage Rd, Ste 9685\nHouston, TX 77074",
+    "phone": "713-412-7282",
+    "phoneHref": "tel:7134127282",
+    "email": "barbershopxclusive20@gmail.com",
+    "hours": "Mon–Sat: 9am – 7pm",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.9!2d-95.5307!3d29.6916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db3b8b8b8b8b%3A0x0!2s9685+SW+Freeway+Frontage+Rd%2C+Houston%2C+TX+77074!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+  },
+  "footer": {
+    "logo": "images/logo.png",
+    "logoAlt": "Xclusive Barbershop",
+    "desc": "Premium cuts and grooming in Houston, TX. Where precision meets passion.",
+    "copyright": "© 2025 Xclusive Barbershop. All rights reserved.",
+    "social": {
+      "instagram": "#",
+      "facebook": "#",
+      "tiktok": "#"
+    }
+  }
+}
