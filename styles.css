@@ -545,7 +545,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero__sub {
   font-size: clamp(1rem, 1.5vw, 1.25rem);
-  color: var(--color-text-muted);
+  color: #fff;
   max-width: 480px;
   margin-bottom: 3rem;
   opacity: 0;
