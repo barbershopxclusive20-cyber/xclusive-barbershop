@@ -471,8 +471,8 @@ function initNavMobile() {
 window.addEventListener('DOMContentLoaded', async () => {
   document.body.style.overflow = 'hidden';
 
-  /* Cargar JSON del CMS */
-  const data = await Promise.race([
+  /* Usar datos inlineados en HTML (elimina waterfall fetch) */
+  const data = window.__DATA__ || await Promise.race([
     fetch('data/data.json').then(r => r.json()),
     new Promise(resolve => setTimeout(() => resolve(null), 3000))
   ]).catch(() => null);
