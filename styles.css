@@ -388,11 +388,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav.is-scrolled {
-  background: rgba(245, 247, 250, 0.92);
-  border-color: var(--color-border);
+  background: rgba(25, 45, 72, 0.97);
+  border-color: rgba(255,255,255,0.08);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
+.nav.is-scrolled .nav__link { color: rgba(255,255,255,0.7); }
+.nav.is-scrolled .nav__link:hover { color: #fff; }
 
 .nav__inner {
   height: 100%;
