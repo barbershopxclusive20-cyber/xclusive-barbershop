@@ -1683,8 +1683,10 @@ h1, h2, h3, h4, h5, h6 {
   .reviews__track--reverse { animation-duration: 40s; }
   .review-card           { width: 280px; padding: 1.5rem; }
 
-  /* Hero spacing */
-  .hero__content { padding-bottom: 3rem; }
+  /* Hero */
+  .hero__content  { padding-bottom: 3rem; text-align: center; }
+  .hero__actions  { display: none; }
+  .hero__sub      { color: #fff; max-width: 100%; }
 
   /* Footer */
   .footer__big-type { font-size: clamp(3rem, 18vw, 7rem); }
