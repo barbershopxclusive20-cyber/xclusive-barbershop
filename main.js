@@ -198,7 +198,7 @@ function applyContent(d) {
   const footerPhone = document.getElementById('footerPhone');
   if (footerPhone && d.location) {
     footerPhone.textContent = d.location.phone;
-    footerPhone.href = d.location.phoneHref;
+    footerPhone.href = `tel:${d.location.phone.replace(/\D/g,'')}` ;
   }
   const footerEmail = document.getElementById('footerEmail');
   if (footerEmail && d.location) {
