@@ -496,9 +496,11 @@ window.addEventListener('DOMContentLoaded', async () => {
       btn.disabled = true;
 
       const formData = new FormData(contactForm);
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const body = Object.fromEntries(formData.entries());
+      const res = await fetch('/api/contact', {
         method: 'POST',
-        body: formData
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
       }).catch(() => null);
 
       if (res && res.ok) {

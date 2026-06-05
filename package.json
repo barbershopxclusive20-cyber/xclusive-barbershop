@@ -1,0 +1,24 @@
+{
+  "name": "xclusive-barbershop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbershopxclusive20-cyber/xclusive-barbershop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/barbershopxclusive20-cyber/xclusive-barbershop/issues"
+  },
+  "homepage": "https://github.com/barbershopxclusive20-cyber/xclusive-barbershop#readme",
+  "dependencies": {
+    "nodemailer": "^8.0.10"
+  }
+}
