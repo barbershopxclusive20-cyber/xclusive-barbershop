@@ -196,7 +196,7 @@
     "phoneHref": "tel:7134127282",
     "email": "barbershopxclusive20@gmail.com",
     "hours": "Mon–Sat: 9am – 7pm",
-    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.9!2d-95.5307!3d29.6916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db3b8b8b8b8b%3A0x0!2s9685+SW+Freeway+Frontage+Rd%2C+Houston%2C+TX+77074!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+    "mapEmbed": "https://maps.google.com/maps?q=9685+SW+Freeway+Frontage+Rd,+Houston,+TX+77074&output=embed"
   },
   "footer": {
     "logo": "images/logo.png",

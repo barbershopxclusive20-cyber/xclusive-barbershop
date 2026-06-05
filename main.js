@@ -164,7 +164,10 @@ function applyContent(d) {
   /* LOCATION */
   if (d.location) {
     const addrEl = document.getElementById('locationAddress');
-    if (addrEl) addrEl.innerHTML = d.location.address.replace(/\n/g, '<br>');
+    if (addrEl) {
+      const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(d.location.address)}`;
+      addrEl.innerHTML = `<a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;text-underline-offset:3px">${d.location.address.replace(/\n/g, '<br>')}</a>`;
+    }
 
     const phoneEl = document.getElementById('locationPhone');
     if (phoneEl) { phoneEl.textContent = d.location.phone; phoneEl.href = d.location.phoneHref; }
@@ -480,5 +483,32 @@ window.addEventListener('DOMContentLoaded', async () => {
     boot();
   } else {
     window.addEventListener('load', boot);
+  }
+
+  /* ─── Contact Form ────────────────────────────── */
+  const contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = contactForm.querySelector('[type="submit"]');
+      const originalText = btn.textContent;
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      const formData = new FormData(contactForm);
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      }).catch(() => null);
+
+      if (res && res.ok) {
+        btn.textContent = 'Message Sent ✓';
+        contactForm.reset();
+        setTimeout(() => { btn.textContent = originalText; btn.disabled = false; }, 3000);
+      } else {
+        btn.textContent = 'Error — Try Again';
+        setTimeout(() => { btn.textContent = originalText; btn.disabled = false; }, 3000);
+      }
+    });
   }
 });
