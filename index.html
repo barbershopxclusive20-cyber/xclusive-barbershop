@@ -169,8 +169,9 @@
 <section class="section" id="map" aria-labelledby="location-heading">
   <div class="container">
     <div class="location__grid" data-reveal>
-      <div class="location__map">
+      <div class="location__map" style="position:relative;">
         <iframe id="locationMap" src="" title="Xclusive Barbershop location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <a id="locationMapLink" href="https://www.google.com/maps/search/?api=1&query=Xclusive+Barbershop+Houston+TX" target="_blank" rel="noopener noreferrer" aria-label="Open in Google Maps" style="position:absolute;inset:0;z-index:10;"></a>
       </div>
       <div class="location__info">
         <h2 id="location-heading" class="display location__heading" style="font-size:var(--size-h3)">Find Us</h2>
@@ -261,6 +262,9 @@
     <div class="footer__bottom">
       <p class="footer__copy" id="footerCopyright">© 2025 Xclusive Barbershop. All rights reserved.</p>
       <div class="footer__social" id="footerSocial"></div>
+    </div>
+    <div style="text-align:center;padding:1rem 0 0.5rem;font-size:var(--size-small);color:var(--color-text-dim);">
+      Made with ♥ by <a href="https://printsys-web.vercel.app/" target="_blank" rel="noopener noreferrer" style="color:var(--color-red);text-decoration:none;font-weight:600;">Inmotion</a>
     </div>
   </div>
 </footer>
