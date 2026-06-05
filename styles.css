@@ -1,17 +1,17 @@
 :root {
   /* ── Colors ─────────────────────── */
-  --color-bg:           #0A0A0F;
-  --color-surface:      #111118;
-  --color-surface-2:    #16161F;
-  --color-red:          #E8192C;
-  --color-red-dark:     #B5101F;
-  --color-blue:         #00AAFF;
-  --color-blue-dark:    #007ACC;
-  --color-text:         #F5F5F7;
-  --color-text-muted:   #6B6B7A;
-  --color-text-dim:     #3A3A48;
-  --color-border:       rgba(255, 255, 255, 0.07);
-  --color-border-hover: rgba(255, 255, 255, 0.14);
+  --color-bg:           #F5F7FA;
+  --color-surface:      #FFFFFF;
+  --color-surface-2:    #EDF0F5;
+  --color-red:          #1A6FE8;
+  --color-red-dark:     #1258C4;
+  --color-blue:         #1A6FE8;
+  --color-blue-dark:    #1258C4;
+  --color-text:         #0D1117;
+  --color-text-muted:   #4A5568;
+  --color-text-dim:     #A0AABB;
+  --color-border:       rgba(0, 0, 0, 0.08);
+  --color-border-hover: rgba(0, 0, 0, 0.16);
 
   /* ── Typography ─────────────────── */
   --font-display:       'Bebas Neue', sans-serif;
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.06);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--dur-fast) var(--ease-out-expo);
@@ -183,10 +183,10 @@ h1, h2, h3, h4, h5, h6 {
 .btn--primary {
   background: var(--color-red);
   color: #fff;
-  box-shadow: 0 0 0 0 rgba(232, 25, 44, 0);
+  box-shadow: 0 0 0 0 rgba(26, 111, 232, 0);
 }
 .btn--primary:hover {
-  box-shadow: 0 8px 40px rgba(232, 25, 44, 0.4);
+  box-shadow: 0 8px 40px rgba(26, 111, 232, 0.35);
   transform: translateY(-2px);
 }
 
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav.is-scrolled {
-  background: rgba(10, 10, 15, 0.85);
+  background: rgba(245, 247, 250, 0.92);
   border-color: var(--color-border);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -484,8 +484,8 @@ h1, h2, h3, h4, h5, h6 {
   inset: 0;
   z-index: 2;
   background-image:
-    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
 }
@@ -1418,7 +1418,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: var(--tracking-display);
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255,255,255,0.06);
+  -webkit-text-stroke: 1px rgba(0,0,0,0.12);
   line-height: 0.85;
   text-align: center;
   margin-bottom: 0;
