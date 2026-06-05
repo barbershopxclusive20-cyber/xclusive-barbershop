@@ -452,7 +452,10 @@ window.addEventListener('DOMContentLoaded', async () => {
   document.body.style.overflow = 'hidden';
 
   /* Cargar JSON del CMS */
-  const data = await fetch('data/data.json').then(r => r.json()).catch(() => null);
+  const data = await Promise.race([
+    fetch('data/data.json').then(r => r.json()),
+    new Promise(resolve => setTimeout(() => resolve(null), 3000))
+  ]).catch(() => null);
 
   /* Inyectar contenido antes de arrancar animaciones */
   applyContent(data);
