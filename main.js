@@ -16,6 +16,7 @@ function applyContent(d) {
   }
   setAttr('navCta',  'href', d.nav?.ctaHref);
   setAttr('navCta',  'target', '_blank');
+  setAttr('navCta',  'rel', 'noopener noreferrer');
   setText('navCta',  d.nav?.ctaLabel);
   setImg('navLogo',  d.nav?.logo, d.nav?.logoAlt);
 
@@ -24,6 +25,7 @@ function applyContent(d) {
   setText('heroSubtitle', d.hero?.subtitle);
   setAttr('heroCta1', 'href', d.hero?.cta1Href);
   setAttr('heroCta1', 'target', '_blank');
+  setAttr('heroCta1', 'rel', 'noopener noreferrer');
   setText('heroCta1', d.hero?.cta1Label);
   setAttr('heroCta2', 'href', d.hero?.cta2Href);
   setText('heroCta2', d.hero?.cta2Label);
@@ -186,6 +188,7 @@ function applyContent(d) {
     if (ctaEl) {
       ctaEl.href = d.location.phoneHref;
       ctaEl.target = '_blank';
+      ctaEl.rel = 'noopener noreferrer';
       ctaEl.textContent = `Book Now — ${d.location.phone}`;
     }
   }

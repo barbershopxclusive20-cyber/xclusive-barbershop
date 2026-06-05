@@ -1,7 +1,7 @@
 {
   "name": "xclusive-barbershop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website for Xclusive Barbershop, Houston TX",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/barbershopxclusive20-cyber/xclusive-barbershop.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["barbershop", "houston", "haircut"],
+  "author": "Xclusive Barbershop",
+  "license": "UNLICENSED",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/barbershopxclusive20-cyber/xclusive-barbershop/issues"

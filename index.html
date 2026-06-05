@@ -254,7 +254,9 @@
       <div class="form-field"><input class="form-field__input" type="text" id="lname" name="lastname" placeholder=" " /><label class="form-field__label" for="lname">Last Name</label></div>
       <div class="form-field"><input class="form-field__input" type="email" id="email" name="email" placeholder=" " required /><label class="form-field__label" for="email">Email Address</label></div>
       <div class="form-field"><input class="form-field__input" type="tel" id="phone" name="phone" placeholder=" " /><label class="form-field__label" for="phone">Phone Number</label></div>
-      <div class="form-field form-field--full form-field--textarea"><textarea class="form-field__textarea" id="message" name="message" placeholder=" " required></textarea><label class="form-field__label" for="message">Your Message</label></div>
+      <div class="form-field form-field--full form-field--textarea"><textarea class="form-field__textarea" id="message" name="message" placeholder=" " required maxlength="3000"></textarea><label class="form-field__label" for="message">Your Message</label></div>
+      <!-- honeypot: hidden field, bots fill it, humans don't -->
+      <div style="display:none" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off" /></div>
       <div class="contact__submit"><button class="btn btn--primary" type="submit" data-magnetic>Send Message</button></div>
     </form>
   </div>
