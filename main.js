@@ -437,19 +437,33 @@ function initCursor() {
 
 /* ─── Nav mobile ──────────────────────────────── */
 function initNavMobile() {
-  const hamburger = document.querySelector('.nav__hamburger');
-  const links     = document.getElementById('navLinks');
-  if (!hamburger || !links) return;
+  const toggle    = document.getElementById('mobileMenuToggle');
+  const menu      = document.getElementById('mobileMenu');
+  const menuLinks = document.getElementById('mobileMenuLinks');
+  const navLinks  = document.getElementById('navLinks');
+  if (!toggle || !menu) return;
+
+  // Copy nav links into mobile overlay
+  if (navLinks && menuLinks) {
+    menuLinks.innerHTML = navLinks.innerHTML +
+      `<a class="mobile-menu__link mobile-menu__book" href="https://app.xclusivebarbershop.net/" target="_blank" rel="noopener noreferrer">Book Now</a>`;
+  }
+
   let open = false;
-  hamburger.addEventListener('click', () => {
-    open = !open;
-    Object.assign(links.style, open ? {
-      display: 'flex', flexDirection: 'column', position: 'fixed',
-      top: 'var(--nav-height)', left: '0', right: '0',
-      background: 'rgba(10,10,15,0.97)', padding: '2rem var(--space-inline)',
-      gap: '1.5rem', backdropFilter: 'blur(20px)',
-      borderBottom: '1px solid var(--color-border)', zIndex: '799'
-    } : { display: 'none' });
+
+  function toggleMenu(state) {
+    open = state;
+    menu.classList.toggle('is-open', open);
+    menu.setAttribute('aria-hidden', String(!open));
+    toggle.classList.toggle('is-active', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+
+  toggle.addEventListener('click', () => toggleMenu(!open));
+
+  // Close on link click
+  menuLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => toggleMenu(false));
   });
 }
 
