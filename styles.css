@@ -907,6 +907,8 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1.5rem;
   margin-bottom: 1.5rem;
   width: max-content;
+  min-width: 100%;
+  will-change: transform;
   animation: marquee 30s linear infinite;
 }
 
@@ -1682,10 +1684,10 @@ h1, h2, h3, h4, h5, h6 {
   .portfolio__grid   { grid-template-columns: 1fr 1fr; }
   .portfolio__item:nth-child(1) { grid-column: span 2; }
 
-  /* Reviews — slower, readable on mobile */
-  .reviews__track        { animation-duration: 40s; }
-  .reviews__track--reverse { animation-duration: 40s; }
-  .review-card           { width: 280px; padding: 1.5rem; }
+  /* Reviews */
+  .reviews__track        { animation-duration: 40s; animation-play-state: running !important; }
+  .reviews__track--reverse { animation-duration: 40s; animation-play-state: running !important; }
+  .review-card           { width: 260px; padding: 1.25rem; }
 
   /* Hero */
   .hero__content  { padding-bottom: 3rem; text-align: center; }

@@ -97,16 +97,20 @@
     { "name": "Jordan K.",   "role": "Style Specialist",        "image": "images/barber-3.jpg" }
   ],
   "reviews": [
-    { "text": "Best fade I've ever had. Alex took his time and the result was perfect. Won't go anywhere else.", "author": "Marcus T." },
-    { "text": "Clean shop, great vibes, and my beard looks incredible. They know exactly what they're doing.", "author": "David R." },
-    { "text": "Brought my son for his first real cut here. He walked out feeling like a million bucks. Amazing team.", "author": "James L." },
-    { "text": "The attention to detail is unreal. They notice things I didn't even ask for and fix them anyway.", "author": "Kevin M." },
-    { "text": "Been coming here for 2 years. Consistent quality every single time. This is the spot.", "author": "Tony S." },
-    { "text": "Walked in without an appointment and they took care of me immediately. Excellent service.", "author": "Andre P." },
-    { "text": "The hair design they did for my son was incredible. All his classmates wanted one after.", "author": "Maria G." },
-    { "text": "I drive 40 minutes just to come here. Worth every mile. Nobody does it like Xclusive.", "author": "Ray F." },
-    { "text": "Most professional shop I've been to. Everything is top notch — the cut, the atmosphere, the people.", "author": "Chris W." },
-    { "text": "My go-to spot. The fades are sharp, the beard work is flawless, and the price is fair.", "author": "Isaiah B." }
+    { "text": "Wilmar is hands down one of the best barbers I've been to. He actually listens to what you ask for and delivers clean, consistent results every time. His fades are sharp, the lines are on point.", "author": "J S." },
+    { "text": "Out of State customer that has been to lots of barbershops, but XCLUSIVE stands out by far. The atmosphere is clean, professional and welcoming. My barbers are incredibly skilled and always deliver a flawless cut.", "author": "Luis Maldonado" },
+    { "text": "My nephew got a haircut by Manuel — it was our first time here and it definitely won't be the last! My nephew was so happy about his haircut. I will recommend this place if you want a clean cut.", "author": "Valentina Esquivel" },
+    { "text": "Overall really good. The barbers are chill, and Alex always gets my hair right. Nothing to complain about… my go-to barbershop.", "author": "Alexander Funez" },
+    { "text": "Very patient barbers. They take a good amount of time to groom. Highly recommend for good fades and clean hair styles.", "author": "Bhargav" },
+    { "text": "Alex is one of the best. Good guy, very respectful and communicative. Best barber shop in Houston.", "author": "Anthoo 21" },
+    { "text": "Fantastic experience! The environment is clean, welcoming, and has a great vibe. The team is super chill and friendly — and they're truly skilled at what they do.", "author": "Eduardo Cabrera" },
+    { "text": "The environment is very very relaxing, the energy of all the barbers is positive! Definitely know what they're doing here! My barber Alex is top notch.", "author": "Kayla Marie" },
+    { "text": "I can't say enough great things about Xclusive Barbershop! The atmosphere is always welcoming and the level of service is top-notch. Every barber here is skilled and dedicated.", "author": "Christian Aristizabal" },
+    { "text": "I have been coming to this barber shop since it opened and it's been the best one so far! Ask for Alex — he's been cutting my hair for about 2 years and he doesn't disappoint!", "author": "Josejetskki" },
+    { "text": "I've followed shop to shop wherever Catracho goes and he hooks me up every single time. I recommend anyone who comes to find a barber to stick with it's with him.", "author": "Rey Gonzalez" },
+    { "text": "Xclusive is one of the best barbershops in Houston. I really recommend it — they're all good but I've been cutting my hair with Piti, he's one of the best.", "author": "Cesar Rodriguez" },
+    { "text": "All the barbers are great! Great and peaceful environment. They are very consistent in their work, always getting me right!", "author": "Luis Fuentes" },
+    { "text": "I've been getting a haircut with Alex for a while now and he's always been consistent, fast and reliable. The environment inside the barbershop is cool and calm.", "author": "Ismael Portillo" }
   ],
   "gallery": [
     { "image": "images/gallery-1.jpg", "alt": "Barbershop interior" },
