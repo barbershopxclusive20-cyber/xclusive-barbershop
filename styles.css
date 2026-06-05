@@ -1659,6 +1659,8 @@ h1, h2, h3, h4, h5, h6 {
   .nav__cta       { display: none; }
   .mobile-bar     { display: flex; }
   .mobile-menu    { display: flex; }
+  .nav__inner     { justify-content: center; }
+  .nav__logo      { margin: 0 auto; }
 
   /* Padding bottom for fixed bar */
   body { padding-bottom: 64px; }
