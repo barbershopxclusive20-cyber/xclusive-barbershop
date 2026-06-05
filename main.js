@@ -150,7 +150,7 @@ function applyContent(d) {
   const blogGrid = document.getElementById('blogGrid');
   if (blogGrid && d.blog) {
     blogGrid.innerHTML = d.blog.map(b => `
-      <article class="blog-card" data-stagger-item>
+      <a class="blog-card" href="${b.href}" data-stagger-item>
         <div class="blog-card__image">
           <img src="${b.image}" alt="${b.title}" loading="lazy" />
         </div>
@@ -160,7 +160,7 @@ function applyContent(d) {
           <p class="blog-card__excerpt">${b.excerpt}</p>
           <div class="blog-card__date">${b.date}</div>
         </div>
-      </article>`).join('');
+      </a>`).join('');
   }
 
   /* LOCATION */
