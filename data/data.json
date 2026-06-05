@@ -83,7 +83,13 @@
     { "image": "images/portfolio-2.jpg", "tag": "Classic + Lineup", "alt": "Classic cut with lineup" },
     { "image": "images/portfolio-3.jpg", "tag": "Beard Sculpt",     "alt": "Beard sculpt" },
     { "image": "images/portfolio-4.jpg", "tag": "Hair Design",      "alt": "Hair design" },
-    { "image": "images/portfolio-5.jpg", "tag": "Taper Cut",        "alt": "Taper cut" }
+    { "image": "images/portfolio-5.jpg", "tag": "Taper Cut",        "alt": "Taper cut" },
+    { "image": "images/gallery-1.jpg",   "tag": "Inside the Shop",  "alt": "Barbershop interior" },
+    { "image": "images/gallery-2.jpg",   "tag": "In Action",        "alt": "Barber in action" },
+    { "image": "images/gallery-3.jpg",   "tag": "Precision Fade",   "alt": "Precision fade in progress" },
+    { "image": "images/gallery-4.jpg",   "tag": "Beard Lineup",     "alt": "Beard lineup detail" },
+    { "image": "images/gallery-5.jpg",   "tag": "Shop Vibes",       "alt": "Shop ambiance" },
+    { "image": "images/gallery-6.jpg",   "tag": "Sharp Taper",      "alt": "Sharp taper cut" }
   ],
   "team": [
     { "name": "Alex Romero", "role": "Founder & Master Barber", "image": "images/barber-1.jpg" },
