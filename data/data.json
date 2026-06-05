@@ -11,7 +11,7 @@
       { "label": "Contact",   "href": "#contact" }
     ],
     "ctaLabel": "Book Now",
-    "ctaHref": "tel:7134127282"
+    "ctaHref": "https://app.xclusivebarbershop.net/"
   },
   "hero": {
     "tag": "Houston, TX — Est. 2020",
@@ -20,7 +20,7 @@
     "titleLine3": "Shop",
     "subtitle": "Precision cuts. Flawless fades. An experience crafted for those who demand the best.",
     "cta1Label": "Book Appointment",
-    "cta1Href": "tel:7134127282",
+    "cta1Href": "https://app.xclusivebarbershop.net/",
     "cta2Label": "See Our Work",
     "cta2Href": "#portfolio"
   },
@@ -119,7 +119,7 @@
       "badge": "",
       "features": ["Kids Cut (12 & under)", "Classic Cut", "Basic Lineup", "Neck shave"],
       "ctaLabel": "Book Now",
-      "ctaHref": "tel:7134127282"
+      "ctaHref": "https://app.xclusivebarbershop.net/"
     },
     {
       "name": "Signature",
@@ -129,7 +129,7 @@
       "badge": "Popular",
       "features": ["Signature Fade", "Beard Lineup", "Hot Towel Finish", "Styling Product", "Neck & Edge Detailing"],
       "ctaLabel": "Book Now",
-      "ctaHref": "tel:7134127282"
+      "ctaHref": "https://app.xclusivebarbershop.net/"
     },
     {
       "name": "Xclusive",
@@ -139,7 +139,7 @@
       "badge": "",
       "features": ["Full Cut + Style", "Beard Sculpt", "Hair Design (optional)", "Hot Towel Treatment", "Scalp Massage", "Premium Products"],
       "ctaLabel": "Book Now",
-      "ctaHref": "tel:7134127282"
+      "ctaHref": "https://app.xclusivebarbershop.net/"
     }
   ],
   "faq": [
@@ -193,7 +193,7 @@
   "location": {
     "address": "9685 SW Freeway Frontage Rd, Ste 9685\nHouston, TX 77074",
     "phone": "713-412-7282",
-    "phoneHref": "tel:7134127282",
+    "phoneHref": "https://app.xclusivebarbershop.net/",
     "email": "barbershopxclusive20@gmail.com",
     "hours": "Mon–Sat: 9am – 7pm",
     "mapEmbed": "https://maps.google.com/maps?q=9685+SW+Freeway+Frontage+Rd,+Houston,+TX+77074&output=embed"

@@ -15,6 +15,7 @@ function applyContent(d) {
     ).join('');
   }
   setAttr('navCta',  'href', d.nav?.ctaHref);
+  setAttr('navCta',  'target', '_blank');
   setText('navCta',  d.nav?.ctaLabel);
   setImg('navLogo',  d.nav?.logo, d.nav?.logoAlt);
 
@@ -22,6 +23,7 @@ function applyContent(d) {
   setText('heroTag',      d.hero?.tag);
   setText('heroSubtitle', d.hero?.subtitle);
   setAttr('heroCta1', 'href', d.hero?.cta1Href);
+  setAttr('heroCta1', 'target', '_blank');
   setText('heroCta1', d.hero?.cta1Label);
   setAttr('heroCta2', 'href', d.hero?.cta2Href);
   setText('heroCta2', d.hero?.cta2Label);
@@ -119,7 +121,7 @@ function applyContent(d) {
           ${p.features.map(f => `<li class="pricing-card__feature">${f}</li>`).join('')}
         </ul>
         <a class="btn ${p.featured ? 'btn--primary' : 'btn--outline'}"
-           href="${p.ctaHref}"
+           href="${p.ctaHref}" target="_blank" rel="noopener noreferrer"
            style="width:100%;justify-content:center"
            ${p.featured ? 'data-magnetic' : ''}>
           ${p.ctaLabel}
@@ -183,6 +185,7 @@ function applyContent(d) {
     const ctaEl = document.getElementById('locationCta');
     if (ctaEl) {
       ctaEl.href = d.location.phoneHref;
+      ctaEl.target = '_blank';
       ctaEl.textContent = `Book Now — ${d.location.phone}`;
     }
   }
