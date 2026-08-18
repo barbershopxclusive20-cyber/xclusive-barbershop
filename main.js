@@ -474,14 +474,28 @@ function initNavMobile() {
 window.addEventListener('DOMContentLoaded', async () => {
   document.body.style.overflow = 'hidden';
 
-  /* Usar datos inlineados en HTML (elimina waterfall fetch) */
-  const data = window.__DATA__ || await Promise.race([
+  /* Usar datos inlineados en HTML para el primer render (evita waterfall fetch),
+     pero SIEMPRE refrescar desde data.json en segundo plano — el HTML inlineado
+     puede quedar desactualizado en cuanto el CMS publica un cambio. */
+  const inlineData = window.__DATA__ || null;
+  let data = inlineData || await Promise.race([
     fetch('data/data.json').then(r => r.json()),
     new Promise(resolve => setTimeout(() => resolve(null), 3000))
   ]).catch(() => null);
 
   /* Inyectar contenido antes de arrancar animaciones */
   applyContent(data);
+
+  /* Refrescar con la versión más reciente de data.json (no bloquea el primer render) */
+  fetch('data/data.json', { cache: 'no-store' })
+    .then(r => r.json())
+    .then(fresh => {
+      if (JSON.stringify(fresh) !== JSON.stringify(data)) {
+        data = fresh;
+        applyContent(fresh);
+      }
+    })
+    .catch(() => {});
 
   /* Esperar a que los CDNs estén listos */
   function boot() {
